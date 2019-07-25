@@ -1,31 +1,30 @@
-            #first {
-                background-image: url('../images/h_img.jpg');
-                background-size: 100%, 100%;
-                background-repeat: no-repeat;
-                /* background-repeat: no-repeat; */
-                /* width: 1600px; */
-            }
-            
-            #second {
-                border: 0px solid black;
-                display: relative;
-                text-align: center;
-                color: white;
-                margin: 0px;
-                /* line-height: 5px; */
-            }
-            
-            h1,
-            p {
-                /* margin: auto 0px; */
-            }
-            
-            p {
-                font-size: 10px;
-            }
-            
-            #image1 {
-                position: relative;
-                padding: 190px;
-                margin: 10px;
-            }
+#first {
+    background-image: url('../images/h_img.jpg');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+#second {
+    border: 0px solid black;
+    display: relative;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+#p1 {
+    font-size: 10px;
+}
+
+#image1 {
+    position: relative;
+    padding: 190px;
+    margin: 10px;
+}
+
+#aboutus {
+    text-align: center;
+    border: 0px solid black;
+    margin-top: auto 0px;
+    font-size: 15px;
+}

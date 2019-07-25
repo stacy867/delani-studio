@@ -1,0 +1,22 @@
+            #first {
+                background-image: url('../images/h_img.jpg');
+                background-repeat: no-repeat;
+                width: 1920px;
+                height: 1071px;
+            }
+            
+            #second {
+                border: 0px solid black;
+                height: 1000px;
+                display: relative;
+                text-align: center;
+                padding: 450px;
+                color: white;
+                line-height: 10px;
+            }
+            
+            h1,
+            img,
+            p {
+                margin: 10px
+            }

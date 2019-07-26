@@ -63,6 +63,12 @@ h2 {
     font-size: 20px;
 }
 
+#secondtittle {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
 h3 {
     text-align: center;
 }
@@ -144,8 +150,94 @@ label {
 #contact {
     background-image: url('../images/c_image.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    /* border: 2px solid black; */
-    height: 1900px;
-    padding: 80px;
+    /* background-size: 100%; */
+    border: 0px solid black;
+    height: 400px;
+    width: 1200px;
+    margin: 50px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+#p1>p,
+#p2>p,
+#p3>p,
+#p4>p,
+#p5>p,
+#p6>p,
+#p7>p,
+#p8>p {
+    position: absolute;
+    /* transform: translate(-50%); */
+    background-color: black;
+    color: white;
+    width: 100%;
+    bottom: 50%;
+    padding: 0;
+    margin-left: 160px;
+    font-size: 18px;
+    text-transform: lowercase;
+}
+
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    width: 90%;
+    position: absolute;
+    /* display: none; */
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+    align-items: center;
+}
+
+textarea {
+    background-color: transparent;
+    width: 99%;
+    height: 70%;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#contactus {
+    border: 0px solid;
+    width: 200%;
+    margin: 50px;
+    margin-left: 60px;
+}
+
+h2 {
+    color: white;
+}
+
+#social {
+    border: 0px solid;
+    padding: 90px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+footer {
+    border: 1px solid;
 }

@@ -1,30 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
 #first {
     background-image: url('../images/h_img.jpg');
     background-size: 100%, 100%;
     background-repeat: no-repeat;
+    /* padding: 20px; */
 }
 
 #second {
     border: 0px solid black;
     display: relative;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
     color: white;
-    margin: 0px;
+    padding: 30px;
 }
 
 #p1 {
     font-size: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #image1 {
-    position: relative;
-    padding: 190px;
-    margin: 10px;
+    /* position: relative; */
+    padding: 110px;
 }
 
 #aboutus {
+    position: relative;
     text-align: center;
     border: 0px solid black;
-    margin-top: auto 0px;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 2px;
+}
+
+#services {
+    background-image: url('../images/s_image.jpg');
+    background-repeat: no-repeat;
+    /* background: 100%, 100%; */
+    /* margin: 70px; */
+    /* height: 50%; */
+    width: 100%;
+}
+
+#image2 {
+    text-align: center;
+    border: 0px solid black;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 100px;
+}
+
+#tittle {
+    border: 0px solid black;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#whatwedo {
+    padding: 20px;
+    margin: 20px;
+}
+
+#row {
+    /* border: 0px solid black; */
+    margin: 20px;
+    padding: 10px;
+    float: right 51%;
+}
+
+#design {
+    float: left;
+}
+
+#dev {
+    border: 0px solid black;
+    padding: 2px;
+    margin-left: 30%;
+}
+
+#product {
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    border: 0px solid;
+    margin-left: 75px;
+}
+
+label {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border: 0px solid;
+    margin-left: 8px;
+}
+
+#l1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border: 0px solid;
+    margin-left: 75px;
+}
+
+#l2 {
+    border: 0px solid;
+    padding: 1px;
+    margin-left: 170px;
+    display: flex;
+    width: 120%;
+    align-items: flex-start;
 }

@@ -3,7 +3,6 @@
     background-image: url('../images/h_img.jpg');
     background-size: 100%, 100%;
     background-repeat: no-repeat;
-    /* padding: 20px; */
 }
 
 #second {
@@ -21,7 +20,6 @@
 }
 
 #image1 {
-    /* position: relative; */
     padding: 110px;
 }
 
@@ -61,6 +59,7 @@
 
 h2 {
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 #whatwedo {
@@ -69,7 +68,6 @@ h2 {
 }
 
 #row {
-    /* border: 0px solid black; */
     margin: 20px;
     padding: 10px;
     float: right 51%;
@@ -113,4 +111,14 @@ label {
     display: flex;
     width: 120%;
     align-items: flex-start;
+}
+
+#portofolio1 {
+    border: 0px solid;
+    margin: 10px;
+}
+
+#portofolio2 {
+    border: 0px solid;
+    margin: 10px;
 }

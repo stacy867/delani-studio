@@ -129,4 +129,12 @@ $(document).ready(function() {
         $("#p8").fadeOut();
 
     });
+
+
 })
+$(document).ready(function() {
+    $("form").submit(function(event) {
+        var a = $("#email").val();
+        alert(a + " we have received your email and message.");
+    });
+});

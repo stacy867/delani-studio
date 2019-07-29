@@ -5,13 +5,18 @@
     background-repeat: no-repeat;
 }
 
+#click {
+    border: 0px solid;
+    margin: 80px;
+}
+
 #second {
     border: 0px solid black;
     display: relative;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
-    padding: 30px;
+    margin: 30px;
 }
 
 #p1 {
@@ -29,8 +34,8 @@
     border: 0px solid black;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    /* margin-top: auto 12px; */
+    /* margin-bottom: 12px; */
     padding: 2px;
 }
 
@@ -197,10 +202,10 @@ label {
     /* display: none; */
 }
 
-input {
+#name,
+#email {
     background-color: transparent;
     width: 100%;
-    align-items: center;
 }
 
 textarea {
@@ -209,6 +214,7 @@ textarea {
     height: 70%;
     margin: 10px;
     margin-right: 50px;
+    margin-bottom: 7px;
 }
 
 textarea::placeholder {
@@ -221,9 +227,11 @@ input::placeholder {
 
 #contactus {
     border: 0px solid;
-    width: 200%;
+    width: 150%;
     margin: 50px;
-    margin-left: 60px;
+    padding-bottom: 90px;
+    margin-left: 120px;
+    margin-bottom: auto 0px;
 }
 
 h2 {
@@ -232,12 +240,23 @@ h2 {
 
 #social {
     border: 0px solid;
-    padding: 90px;
-    margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 770px;
     margin-right: 100px;
+    margin-top: 0px;
+    /* justify-content: space-between; */
 }
 
-footer {
-    border: 1px solid;
+#delani {
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 15px;
+    line-height: 5px;
+    margin-left: 155px;
+    font-size: 12px;
 }
+
+
+/* button {
+    border: 0px solid;
+    margin-left: 280px;
+} */
